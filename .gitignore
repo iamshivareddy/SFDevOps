@@ -7,6 +7,7 @@
 .sfdx/
 .localdevserver/
 deploy-options.json
+node_modules/
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
@@ -46,3 +47,13 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+
+# VS Code settings
+.vscode/
+
+# Logs
+npm-debug.log
+yarn-error.log
+
+# Scratch org files
+.config/
